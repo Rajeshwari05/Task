@@ -1,0 +1,9 @@
+CREATE DATABASE form;      -- This will create database
+Use form                   -- to use the database
+CREATE TABLE userdata (
+    ID INT AUTO_INCREMENT PRIMARY KEY, -- This will auto-increment the ID column
+    Name VARCHAR(50),                 -- Assuming a maximum length for the name
+    Email VARCHAR(50),                -- Assuming a maximum length for the email
+    Age INT,                           -- Assuming age is stored as an integer
+    DateOfBirth DATE                   -- Assuming date of birth is stored as a date
+);
